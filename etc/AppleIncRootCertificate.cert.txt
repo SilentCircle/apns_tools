@@ -1,0 +1,65 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2 (0x2)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, O=Apple Inc., OU=Apple Certification Authority, CN=Apple Root CA
+        Validity
+            Not Before: Apr 25 21:40:36 2006 GMT
+            Not After : Feb  9 21:40:36 2035 GMT
+        Subject: C=US, O=Apple Inc., OU=Apple Certification Authority, CN=Apple Root CA
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:e4:91:a9:09:1f:91:db:1e:47:50:eb:05:ed:5e:
+                    79:84:2d:eb:36:a2:57:4c:55:ec:8b:19:89:de:f9:
+                    4b:6c:f5:07:ab:22:30:02:e8:18:3e:f8:50:09:d3:
+                    7f:41:a8:98:f9:d1:ca:66:9c:24:6b:11:d0:a3:bb:
+                    e4:1b:2a:c3:1f:95:9e:7a:0c:a4:47:8b:5b:d4:16:
+                    37:33:cb:c4:0f:4d:ce:14:69:d1:c9:19:72:f5:5d:
+                    0e:d5:7f:5f:9b:f2:25:03:ba:55:8f:4d:5d:0d:f1:
+                    64:35:23:15:4b:15:59:1d:b3:94:f7:f6:9c:9e:cf:
+                    50:ba:c1:58:50:67:8f:08:b4:20:f7:cb:ac:2c:20:
+                    6f:70:b6:3f:01:30:8c:b7:43:cf:0f:9d:3d:f3:2b:
+                    49:28:1a:c8:fe:ce:b5:b9:0e:d9:5e:1c:d6:cb:3d:
+                    b5:3a:ad:f4:0f:0e:00:92:0b:b1:21:16:2e:74:d5:
+                    3c:0d:db:62:16:ab:a3:71:92:47:53:55:c1:af:2f:
+                    41:b3:f8:fb:e3:70:cd:e6:a3:4c:45:7e:1f:4c:6b:
+                    50:96:41:89:c4:74:62:0b:10:83:41:87:33:8a:81:
+                    b1:30:58:ec:5a:04:32:8c:68:b3:8f:1d:de:65:73:
+                    ff:67:5e:65:bc:49:d8:76:9f:33:14:65:a1:77:94:
+                    c9:2d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Subject Key Identifier: 
+                2B:D0:69:47:94:76:09:FE:F4:6B:8D:2E:40:A6:F7:47:4D:7F:08:5E
+            X509v3 Authority Key Identifier: 
+                keyid:2B:D0:69:47:94:76:09:FE:F4:6B:8D:2E:40:A6:F7:47:4D:7F:08:5E
+
+            X509v3 Certificate Policies: 
+                Policy: 1.2.840.113635.100.5.1
+                  CPS: https://www.apple.com/appleca/
+                  User Notice:
+                    Explicit Text: Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.
+
+    Signature Algorithm: sha1WithRSAEncryption
+         5c:36:99:4c:2d:78:b7:ed:8c:9b:dc:f3:77:9b:f2:76:d2:77:
+         30:4f:c1:1f:85:83:85:1b:99:3d:47:37:f2:a9:9b:40:8e:2c:
+         d4:b1:90:12:d8:be:f4:73:9b:ee:d2:64:0f:cb:79:4f:34:d8:
+         a2:3e:f9:78:ff:6b:c8:07:ec:7d:39:83:8b:53:20:d3:38:c4:
+         b1:bf:9a:4f:0a:6b:ff:2b:fc:59:a7:05:09:7c:17:40:56:11:
+         1e:74:d3:b7:8b:23:3b:47:a3:d5:6f:24:e2:eb:d1:b7:70:df:
+         0f:45:e1:27:ca:f1:6d:78:ed:e7:b5:17:17:a8:dc:7e:22:35:
+         ca:25:d5:d9:0f:d6:6b:d4:a2:24:23:11:f7:a1:ac:8f:73:81:
+         60:c6:1b:5b:09:2f:92:b2:f8:44:48:f0:60:38:9e:15:f5:3d:
+         26:67:20:8a:33:6a:f7:0d:82:cf:de:eb:a3:2f:f9:53:6a:5b:
+         64:c0:63:33:77:f7:3a:07:2c:56:eb:da:0f:21:0e:da:ba:73:
+         19:4f:b5:d9:36:7f:c1:87:55:d9:a7:99:b9:32:42:fb:d8:d5:
+         71:9e:7e:a1:52:b7:1b:bd:93:42:24:12:2a:c7:0f:1d:b6:4d:
+         9c:5e:63:c8:4b:80:17:50:aa:8a:d5:da:e4:fc:d0:09:07:37:
+         b0:75:75:21

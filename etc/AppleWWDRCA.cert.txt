@@ -1,0 +1,66 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 134752589830791184 (0x1debcc4396da010)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, O=Apple Inc., OU=Apple Certification Authority, CN=Apple Root CA
+        Validity
+            Not Before: Feb  7 21:48:47 2013 GMT
+            Not After : Feb  7 21:48:47 2023 GMT
+        Subject: C=US, O=Apple Inc., OU=Apple Worldwide Developer Relations, CN=Apple Worldwide Developer Relations Certification Authority
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ca:38:54:a6:cb:56:aa:c8:24:39:48:e9:8c:ee:
+                    ec:5f:b8:7f:26:91:bc:34:53:7a:ce:7c:63:80:61:
+                    77:64:5e:a5:07:23:b6:39:fe:50:2d:15:56:58:70:
+                    2d:7e:c4:6e:c1:4a:85:3e:2f:f0:de:84:1a:a1:57:
+                    c9:af:7b:18:ff:6a:fa:15:12:49:15:08:19:ac:aa:
+                    db:2a:32:ed:96:63:68:52:15:3d:8c:8a:ec:bf:6b:
+                    18:95:e0:03:ac:01:7d:97:05:67:ce:0e:85:95:37:
+                    6a:ed:09:b6:ae:67:cd:51:64:9f:c6:5c:d1:bc:57:
+                    6e:67:35:80:76:36:a4:87:81:6e:38:8f:d8:2b:15:
+                    4e:7b:25:d8:5a:bf:4e:83:c1:8d:d2:93:d5:1a:71:
+                    b5:60:9c:9d:33:4e:55:f9:12:58:0c:86:b8:16:0d:
+                    c1:e5:77:45:8d:50:48:ba:2b:2d:e4:94:85:e1:e8:
+                    c4:9d:c6:68:a5:b0:a3:fc:67:7e:70:ba:02:59:4b:
+                    77:42:91:39:b9:f5:cd:e1:4c:ef:c0:3b:48:8c:a6:
+                    e5:21:5d:fd:6a:6a:bb:a7:16:35:60:d2:e6:ad:f3:
+                    46:29:c9:e8:c3:8b:e9:79:c0:6a:61:67:15:b2:f0:
+                    fd:e5:68:bc:62:5f:6e:cf:99:dd:ef:1b:63:fe:92:
+                    65:ab
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                88:27:17:09:A9:B6:18:60:8B:EC:EB:BA:F6:47:59:C5:52:54:A3:B7
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Authority Key Identifier: 
+                keyid:2B:D0:69:47:94:76:09:FE:F4:6B:8D:2E:40:A6:F7:47:4D:7F:08:5E
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.apple.com/root.crl
+
+            X509v3 Key Usage: critical
+                Digital Signature, Certificate Sign, CRL Sign
+            1.2.840.113635.100.6.2.1: 
+                ..
+    Signature Algorithm: sha1WithRSAEncryption
+         4f:cf:ef:59:be:2c:f5:b2:6c:2f:8f:ee:13:87:32:e8:05:35:
+         a8:6e:8b:7d:c9:69:0c:b9:d9:17:bc:77:2c:d4:67:e2:fd:9a:
+         6d:3a:59:5c:df:83:01:bd:b2:ae:2a:61:72:b1:af:cd:c3:45:
+         30:8f:a3:83:0d:ce:1d:47:b4:f1:93:8a:a3:74:9b:a4:c3:98:
+         72:87:3b:3e:af:45:0b:92:54:b9:32:bb:90:18:53:6b:0a:4e:
+         10:b6:d9:1d:50:6c:21:80:0a:89:4e:57:8c:6b:5b:3c:3d:a6:
+         fd:de:f7:0d:23:1d:0b:4a:26:87:3f:ba:91:92:4c:a4:19:12:
+         19:6d:57:f5:7a:58:87:7b:68:8a:e4:86:8c:4a:eb:e2:49:14:
+         aa:a5:dd:55:00:a9:ae:bb:4b:30:ae:e1:a0:b1:bc:29:80:e6:
+         09:77:e5:be:34:a2:01:ca:7f:dc:e2:0a:e6:3b:b8:bb:ec:ba:
+         62:95:f3:05:63:41:82:cd:0f:3b:1d:4c:95:a4:db:ab:f9:c9:
+         95:e9:4f:e4:4d:e7:26:99:81:e9:bc:f9:b4:29:d2:01:7a:66:
+         e1:2e:8c:f6:21:8a:c5:f8:78:e1:81:ae:bf:d3:90:9d:a9:ad:
+         f3:af:fd:38:1a:96:67:30:1c:51:a5:5c:ec:71:8a:82:b4:6c:
+         0f:0c:15:1f
