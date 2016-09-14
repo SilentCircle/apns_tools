@@ -1,0 +1,77 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 7360797096068644072 (0x6626cdf5aee5fce8)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=Apple IST CA 2 - G1, OU=Certification Authority, O=Apple Inc., C=US
+        Validity
+            Not Before: Aug 28 19:03:46 2015 GMT
+            Not After : Sep 26 19:03:46 2017 GMT
+        Subject: CN=api.push.apple.com, OU=management:idms.group.533599, O=Apple Inc., ST=California, C=US
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:d2:5d:4b:d7:a8:50:27:d4:dd:fd:3a:8f:fb:f8:
+                    dc:19:83:55:10:fe:14:84:36:e5:6d:dd:b8:fd:98:
+                    f2:95:e8:c1:cb:fb:34:83:24:ed:39:ce:41:c2:d9:
+                    ac:67:60:9a:e8:d3:d4:af:7b:90:fe:bf:38:84:43:
+                    5c:f2:e4:90:38:7c:82:a8:ea:f6:01:21:89:2b:e8:
+                    50:1d:6e:c0:79:c8:96:52:51:00:86:ed:36:69:72:
+                    28:56:f6:cc:83:af:02:24:e3:d8:e1:8b:1c:0f:d2:
+                    75:02:2e:6c:fc:84:02:72:3d:c0:21:85:d9:c9:91:
+                    16:9f:71:36:c6:bf:fc:fc:d9:41:13:09:4a:19:66:
+                    89:5c:f4:f1:aa:b0:6b:a2:63:48:2e:22:77:be:af:
+                    e4:4d:35:1f:89:a2:d0:34:96:f9:54:5d:b6:b2:15:
+                    55:99:e2:82:b3:7d:f2:c8:3f:18:a2:78:b2:fc:d8:
+                    69:c7:ce:99:b5:20:95:38:6c:0b:f2:4f:94:e8:67:
+                    88:33:8d:56:1b:56:16:87:d1:93:08:bc:a1:e2:cc:
+                    23:51:fe:08:7a:a6:64:4d:14:5b:f0:99:66:1c:c1:
+                    0e:b2:63:04:31:ab:fd:80:f7:d1:51:99:33:fb:8f:
+                    5b:4c:95:45:d1:82:60:51:dd:f7:05:d8:92:3a:ff:
+                    55:db
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.apple.com/ocsp04-appleistca2g101
+
+            X509v3 Subject Key Identifier: 
+                67:1A:5C:D6:C1:5D:8E:82:FF:C2:50:D9:8F:74:16:7A:C0:61:6B:E0
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Authority Key Identifier: 
+                keyid:D8:7A:94:44:7C:90:70:90:16:9E:DD:17:9C:01:44:03:86:D6:2A:29
+
+            X509v3 Certificate Policies: 
+                Policy: 1.2.840.113635.100.5.11.4
+                  User Notice:
+                    Explicit Text: Reliance on this certificate by any party assumes acceptance of any applicable terms and conditions of use and/or certification practice statements.
+                  CPS: http://www.apple.com/certificateauthority/rpa
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.apple.com/appleistca2g1.crl
+
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Subject Alternative Name: 
+                DNS:api.push.apple.com
+    Signature Algorithm: sha256WithRSAEncryption
+         bc:0d:0f:a1:dd:70:3f:45:6c:aa:aa:69:71:f6:76:16:18:29:
+         34:cd:8b:36:71:02:14:43:6c:db:19:a4:e9:06:37:61:51:98:
+         03:87:7f:81:d2:a0:9e:05:70:c4:8a:f7:25:bd:ca:7f:55:97:
+         ea:3f:b9:e3:f8:c1:a3:87:7d:38:7d:48:09:18:b3:a5:5b:e5:
+         00:cc:a0:ef:d6:0b:b5:6a:7c:7f:5c:68:57:3b:c6:72:b6:dd:
+         6f:31:c2:05:29:b0:d7:62:46:cf:d6:94:8c:df:a5:30:7e:05:
+         57:00:70:22:f9:65:3e:1c:bc:56:75:bd:f7:0e:ef:4a:13:78:
+         a0:26:a7:3a:1f:e6:08:74:c7:4e:52:70:3a:0c:b7:b7:f2:9d:
+         e8:ba:d9:2e:9d:a9:84:ea:e4:c3:8e:1b:0d:44:c9:50:46:e7:
+         38:48:ff:b6:24:4f:16:c2:77:9b:09:a2:55:86:45:fb:4c:2d:
+         41:9c:41:b3:15:b2:04:3a:c7:f6:8f:b3:34:35:6a:93:51:72:
+         e7:9a:e1:08:f7:f6:3c:0f:3c:88:12:ec:80:8f:9b:49:84:87:
+         26:44:47:5b:5f:1f:cc:3b:98:52:aa:f3:73:f5:88:bd:73:ee:
+         c7:3d:9b:31:f5:e2:33:13:9c:90:6e:d8:f5:63:19:c0:a8:57:
+         6c:fd:a9:ed

@@ -1,0 +1,47 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 8065904008342251502 (0x6fefd8f5e9a3a7ee)
+    Signature Algorithm: ecdsa-with-SHA256
+        Issuer: CN=Apple Root CA - G3, OU=Apple Certification Authority, O=Apple Inc., C=US
+        Validity
+            Not Before: May  6 23:43:24 2014 GMT
+            Not After : May  6 23:43:24 2029 GMT
+        Subject: CN=Apple Worldwide Developer Relations CA - G2, OU=Apple Certification Authority, O=Apple Inc., C=US
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (256 bit)
+                pub: 
+                    04:dd:f0:b7:06:4b:cf:dd:73:04:13:c4:43:89:03:
+                    93:80:fb:5e:f6:74:ad:42:61:52:58:02:26:53:19:
+                    c8:63:22:07:09:52:61:ca:c4:d9:57:ef:6d:26:68:
+                    8b:74:91:8c:c4:f9:80:68:28:fc:09:68:f0:10:da:
+                    e9:d0:2e:c9:1a
+                ASN1 OID: prime256v1
+        X509v3 extensions:
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.apple.com/ocsp04-applerootcag3
+
+            X509v3 Subject Key Identifier: 
+                84:B6:84:CC:3A:86:62:72:16:59:94:E8:1A:A3:BD:48:DF:3A:DF:0B
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Authority Key Identifier: 
+                keyid:BB:B0:DE:A1:58:33:88:9A:A4:8A:99:DE:BE:BD:EB:AF:DA:CB:24:AB
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.apple.com/applerootcag3.crl
+
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+            1.2.840.113635.100.6.2.15: 
+                ..
+    Signature Algorithm: ecdsa-with-SHA256
+         30:66:02:31:00:d9:b1:c7:31:c6:23:f6:4f:4d:d0:d9:47:c5:
+         7d:18:69:11:87:71:27:d3:68:ad:e0:9b:65:9a:be:6c:df:3f:
+         46:a6:90:09:be:6e:a1:3b:2c:b0:51:89:41:3c:87:d2:bf:02:
+         31:00:fc:64:52:89:4b:3c:5d:bf:6b:1c:c2:89:98:2f:72:ae:
+         b5:9b:aa:1a:0b:23:54:77:54:e8:15:43:a2:c5:12:da:97:50:
+         73:7c:5e:d0:6e:b2:5c:62:50:d7:51:f1:3a:5a

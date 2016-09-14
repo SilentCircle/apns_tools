@@ -1,0 +1,77 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 5562046776856771446 (0x4d305c1316a77b76)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=Apple IST CA 2 - G1, OU=Certification Authority, O=Apple Inc., C=US
+        Validity
+            Not Before: Jun 19 01:49:43 2015 GMT
+            Not After : Jul 18 01:49:43 2017 GMT
+        Subject: CN=api.development.push.apple.com, OU=management:idms.group.533599, O=Apple Inc., ST=California, C=US
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:ae:59:6d:c4:c6:4b:2f:94:ee:09:af:37:6d:5a:
+                    fd:71:ba:bd:be:c6:12:90:5c:9d:b3:5b:4e:47:f0:
+                    d0:97:e0:4e:6a:7a:69:d8:db:25:cc:e1:32:dd:4b:
+                    ee:07:c8:76:62:40:7c:ab:58:3e:da:be:ca:f3:7b:
+                    53:a0:21:db:86:a3:8e:f0:ad:1f:a6:47:8d:a3:58:
+                    51:2a:cd:3a:b0:08:e7:13:2c:32:22:61:aa:c2:48:
+                    c7:ac:64:60:9f:ea:d7:b4:67:e1:e9:14:d4:18:f4:
+                    6f:28:fe:aa:7f:54:dd:ca:aa:18:c4:3e:71:02:c8:
+                    83:0e:93:7d:8a:5f:cb:3e:0b:9d:ba:79:f5:30:78:
+                    a8:51:85:2e:6b:4f:eb:17:b0:77:d6:87:ab:67:62:
+                    4f:8f:8e:0e:65:60:59:dd:46:8b:3d:88:e4:b5:4e:
+                    cf:99:8d:9d:5f:8e:62:15:6c:e1:35:26:c1:fe:61:
+                    25:d4:41:05:f0:bb:6c:55:12:ce:a6:3e:ae:6c:af:
+                    fe:e9:b8:7d:07:ee:9b:25:bd:be:e2:5d:50:cf:98:
+                    03:e9:d6:2d:84:43:81:c4:e9:44:16:2f:86:d6:aa:
+                    99:33:5a:01:2b:38:72:d7:ec:11:be:bd:82:7c:6f:
+                    c4:03:30:5f:00:74:95:d9:a1:ef:70:00:32:98:fa:
+                    08:79
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.apple.com/ocsp04-appleistca2g101
+
+            X509v3 Subject Key Identifier: 
+                D6:06:3F:DE:1A:7A:47:8F:4F:27:EF:EA:4E:0A:18:4A:0F:A3:B1:38
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Authority Key Identifier: 
+                keyid:D8:7A:94:44:7C:90:70:90:16:9E:DD:17:9C:01:44:03:86:D6:2A:29
+
+            X509v3 Certificate Policies: 
+                Policy: 1.2.840.113635.100.5.11.4
+                  User Notice:
+                    Explicit Text: Reliance on this certificate by any party assumes acceptance of any applicable terms and conditions of use and/or certification practice statements.
+                  CPS: http://www.apple.com/certificateauthority/rpa
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.apple.com/appleistca2g1.crl
+
+            X509v3 Key Usage: critical
+                Digital Signature, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 Subject Alternative Name: 
+                DNS:api.development.push.apple.com, DNS:api.sandbox.push.apple.com
+    Signature Algorithm: sha256WithRSAEncryption
+         61:5b:bc:3d:0f:cd:df:48:35:bb:f8:5a:49:3f:45:11:7f:bd:
+         28:65:2f:df:dd:ba:f0:60:9f:99:64:89:3c:1a:fd:1f:9b:9d:
+         86:02:c9:68:9e:96:ad:ec:a9:f5:9c:ec:22:00:63:51:e3:55:
+         18:8e:23:8a:2b:eb:67:21:e6:f5:64:53:4f:5e:bd:0c:80:d1:
+         87:55:c3:a6:dd:fa:5b:4f:46:8a:83:1c:a3:b3:50:f2:6e:3b:
+         90:1e:d3:6f:31:c3:72:d8:bb:7a:45:ee:8d:e1:3d:ee:31:4b:
+         88:87:ca:fb:a5:ff:ef:d4:11:91:01:91:b0:1b:51:2c:26:73:
+         04:d2:8d:df:20:97:c8:88:93:50:4a:22:92:c3:ed:07:90:4e:
+         ea:9e:e6:6d:b7:69:26:00:42:38:4a:e0:1b:6e:14:b1:84:a7:
+         ac:de:b1:4e:48:e7:40:30:4b:93:d8:ae:90:af:5c:a3:db:d2:
+         67:78:33:fc:07:d1:4a:2a:cd:c7:86:b4:9c:fd:97:d2:94:f0:
+         b8:bf:f8:fd:fe:ff:ed:3a:65:7f:ae:b4:cd:72:79:65:33:9f:
+         2b:3d:59:45:00:a6:32:5f:55:b1:59:1d:1f:8b:57:3e:dd:6f:
+         89:e2:00:ca:06:4e:2b:96:a2:d8:0d:6c:76:0d:ff:61:ab:75:
+         87:ad:a8:53

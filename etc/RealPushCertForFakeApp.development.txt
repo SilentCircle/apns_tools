@@ -1,0 +1,74 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 3655450425821042782 (0x32bac4cb7d1d185e)
+    Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, O=Apple Inc., OU=Apple Worldwide Developer Relations, CN=Apple Worldwide Developer Relations Certification Authority
+        Validity
+            Not Before: Aug 24 14:48:51 2016 GMT
+            Not After : Aug 24 14:48:51 2017 GMT
+        Subject: UID=com.example.FakeApp, CN=Apple Development IOS Push Services: com.example.FakeApp, OU=8K7827G5GQ, C=US
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b7:bc:8e:ae:ae:a9:ec:7e:92:db:69:61:da:dc:
+                    24:28:82:d4:ba:cb:18:b7:a9:cc:41:62:43:97:41:
+                    ed:63:39:70:43:e1:bb:a4:26:47:12:d5:a1:7c:76:
+                    3e:dd:e2:86:84:0e:97:24:02:51:8a:19:08:03:5a:
+                    aa:d1:79:95:7a:72:c0:df:99:16:5d:3b:44:fe:59:
+                    c6:09:00:be:5f:e5:e4:9e:d1:5e:aa:3a:ad:a3:09:
+                    15:2d:70:42:6f:5c:6b:55:5a:57:5a:d6:05:f8:f1:
+                    00:9d:25:f2:32:67:7d:48:4b:75:c7:9d:90:32:e1:
+                    c7:1f:ac:1d:3a:f9:ee:f8:b7:e9:c4:68:46:67:92:
+                    fa:6b:f5:e1:10:8e:7e:af:79:d7:4a:cd:7a:3a:f5:
+                    32:73:e6:a6:15:a8:92:4f:34:9e:2a:2e:9f:2f:4d:
+                    cf:72:62:52:70:b4:d2:98:58:ed:d5:bb:3f:04:2d:
+                    fc:31:d4:f8:d3:97:0c:93:a8:24:16:c5:35:39:d4:
+                    b7:83:13:5b:41:d1:83:4c:79:e3:26:c1:89:79:78:
+                    c0:62:1f:76:8e:07:bc:50:5f:12:4f:df:6a:af:a6:
+                    da:5c:0a:eb:42:ed:77:28:34:e3:0a:fd:c9:b6:a1:
+                    06:be:67:9a:24:2a:42:81:8e:83:f9:2b:5c:7a:21:
+                    8e:d3
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                09:17:D5:21:4A:22:DE:E6:2F:B9:04:7C:F9:50:80:42:12:8A:57:04
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Authority Key Identifier: 
+                keyid:88:27:17:09:A9:B6:18:60:8B:EC:EB:BA:F6:47:59:C5:52:54:A3:B7
+
+            X509v3 Certificate Policies: 
+                Policy: 1.2.840.113635.100.5.1
+                  User Notice:
+                    Explicit Text: Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.
+                  CPS: http://www.apple.com/appleca/
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://developer.apple.com/certificationauthority/wwdrca.crl
+
+            X509v3 Key Usage: 
+                Digital Signature
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            1.2.840.113635.100.6.3.1: 
+                ..
+    Signature Algorithm: sha1WithRSAEncryption
+         c5:88:3a:de:75:36:23:69:57:6e:ff:c3:bf:59:7f:ac:f0:41:
+         9c:9c:8a:76:a1:7d:07:90:32:de:5b:16:71:94:11:88:b7:ea:
+         85:b1:dc:40:00:a2:f1:12:8b:e1:9f:99:b6:41:d8:57:a2:07:
+         7c:10:20:93:a1:1c:15:ea:18:e9:8b:5b:f8:e8:8c:25:6f:15:
+         3f:4e:9c:64:af:8d:e7:ee:37:88:77:ca:33:15:44:4d:06:69:
+         f3:c8:45:c0:ba:2a:ea:74:69:77:17:0e:8f:0d:be:1c:69:1f:
+         64:bd:f5:70:85:f0:83:d8:84:7f:4e:a6:78:52:19:78:d5:0e:
+         f6:1c:a4:9c:20:6f:ff:63:0c:87:43:e7:60:cb:16:9e:17:80:
+         08:79:74:86:3e:69:1d:a7:9a:de:88:6a:04:8f:f9:1b:bc:02:
+         9c:b0:54:0b:7b:1c:2e:21:c8:39:37:ba:f6:f3:89:06:fe:6f:
+         68:69:6e:bf:de:9c:9f:31:6f:57:8e:04:9b:e0:de:f5:b1:d8:
+         1c:53:a0:00:b4:0a:0d:e6:10:fd:08:6c:36:97:48:1f:d7:47:
+         75:58:fe:df:4f:cc:35:03:f0:4f:32:ef:69:06:3f:41:0f:d1:
+         cc:b1:d8:86:73:8b:e8:91:92:e8:50:ff:92:ba:3b:95:7f:9f:
+         91:eb:8d:bc

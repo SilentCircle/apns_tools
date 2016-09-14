@@ -1,0 +1,90 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 13 (0xd)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, O=Apple Inc., OU=Apple Worldwide Developer Relations, CN=Apple Worldwide Developer Relations Certification Authority
+        Validity
+            Not Before: Aug 24 18:06:19 2016 GMT
+            Not After : Aug 24 18:06:19 2018 GMT
+        Subject: UID=com.example.FakeApp, CN=Apple Push Services: com.example.FakeApp, OU=6F44JJ9SDF, O=Example, LLC, C=US
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:c4:3e:a4:db:99:91:be:30:d3:b0:fd:91:cb:0f:
+                    6e:26:a2:ed:b3:ef:86:33:99:b0:57:a6:87:d6:e9:
+                    e4:49:ef:30:90:90:30:d6:b4:89:7f:7e:a0:73:94:
+                    6f:06:4c:da:e3:97:2b:06:b4:1d:70:c9:f6:1f:f7:
+                    45:92:ac:20:71:8c:da:77:28:2f:af:b1:9b:db:7d:
+                    24:f3:a3:97:d4:67:28:cc:2b:d7:6f:ed:89:97:3e:
+                    72:09:3a:de:d0:65:a8:8e:12:d7:60:ad:02:29:91:
+                    23:b7:d4:63:dc:36:4e:2b:31:3f:3a:83:eb:35:db:
+                    81:f3:dc:1f:49:b6:ef:ef:b3:cc:9f:b8:c9:13:cb:
+                    e7:39:48:65:c9:6e:19:51:1d:5f:3e:71:27:3d:94:
+                    7f:6d:4e:a4:65:e2:4e:be:18:15:48:13:c8:59:41:
+                    4b:1c:57:73:2e:a5:69:35:18:2a:3e:76:46:a0:96:
+                    01:03:6e:e3:ec:33:ba:a9:91:35:46:4e:3f:09:b5:
+                    dc:83:4f:12:d0:a9:f2:ef:68:24:45:c9:a6:42:59:
+                    43:9f:a3:37:10:e7:e8:65:f5:9d:65:09:27:6a:49:
+                    50:24:b1:73:2d:9f:10:3c:6a:91:97:83:d8:87:e1:
+                    fb:db:eb:eb:28:57:77:76:ee:be:5c:84:ab:89:59:
+                    e2:c7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                31:5A:B0:3C:3B:FA:27:49:B8:57:66:F0:07:13:D0:13:27:C3:C6:70
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Authority Key Identifier: 
+                keyid:7F:F8:4A:74:2C:9F:F0:3C:9F:5C:6F:0E:40:80:03:3F:26:58:49:6F
+
+            X509v3 Certificate Policies: 
+                Policy: 1.2.840.113635.100.5.1
+                  User Notice:
+                    Explicit Text: Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.
+                  CPS: http://www.apple.com/certificateauthority
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.apple.com/wwdrca.crl
+
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            1.2.840.113635.100.6.3.1: 
+    0:d=0  hl=2 l=   0 prim: NULL              
+
+            1.2.840.113635.100.6.3.2: 
+    0:d=0  hl=2 l=   0 prim: NULL              
+
+            1.2.840.113635.100.6.3.6: 
+    0:d=0  hl=2 l= 112 cons: SEQUENCE          
+    2:d=1  hl=2 l=  19 prim:  UTF8STRING        :com.example.FakeApp
+   23:d=1  hl=2 l=   5 cons:  SEQUENCE          
+   25:d=2  hl=2 l=   3 prim:   UTF8STRING        :app
+   30:d=1  hl=2 l=  24 prim:  UTF8STRING        :com.example.FakeApp.voip
+   56:d=1  hl=2 l=   6 cons:  SEQUENCE          
+   58:d=2  hl=2 l=   4 prim:   UTF8STRING        :voip
+   64:d=1  hl=2 l=  32 prim:  UTF8STRING        :com.example.FakeApp.complication
+   98:d=1  hl=2 l=  14 cons:  SEQUENCE          
+  100:d=2  hl=2 l=  12 prim:   UTF8STRING        :complication
+
+    Signature Algorithm: sha256WithRSAEncryption
+         33:3b:cf:f3:cd:fb:4b:09:33:4f:97:23:18:3b:f6:6b:e6:57:
+         2a:40:da:9f:e9:e1:b1:e5:a1:3c:c9:60:74:c2:5f:1f:27:02:
+         4b:d1:0b:5f:b3:ba:c8:e0:65:07:6e:64:e0:42:dc:b3:f5:bd:
+         4c:a1:52:06:90:a2:12:5d:34:e6:7b:89:d7:76:f8:e6:5e:36:
+         6c:99:c7:d0:2e:b8:17:2e:b7:eb:2e:57:c3:d6:43:d1:9e:26:
+         91:62:d5:a3:f5:2b:0a:3c:62:8b:6e:50:0b:3e:00:54:88:bb:
+         c4:9a:c5:c4:92:96:9e:e3:17:b9:9f:8e:b2:6b:3c:54:0a:f0:
+         20:c0:04:ea:b4:c2:55:9e:20:f8:07:fe:0e:53:0c:16:bc:d6:
+         7b:5d:7b:61:08:d5:be:ab:19:a5:47:b0:ef:06:9d:1b:67:3f:
+         3f:16:24:94:8a:7d:68:a4:c0:42:db:cc:5c:58:37:4c:16:f0:
+         33:4f:8b:1d:45:0c:23:7f:92:5a:11:44:78:ef:d8:3a:2c:fc:
+         22:10:d4:ae:2f:39:9e:62:0e:47:b5:79:c1:4b:65:98:dd:42:
+         0f:31:f8:98:7e:00:23:44:9b:60:ec:45:d9:08:27:2a:a8:c1:
+         68:ad:d4:d1:c2:47:37:21:07:4d:d2:3e:02:51:3a:69:02:6d:
+         15:af:22:e9

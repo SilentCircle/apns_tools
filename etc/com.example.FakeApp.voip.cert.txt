@@ -1,0 +1,85 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 12 (0xc)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, O=Apple Inc., OU=Apple Worldwide Developer Relations, CN=Apple Worldwide Developer Relations Certification Authority
+        Validity
+            Not Before: Aug 24 18:06:19 2016 GMT
+            Not After : Aug 24 18:06:19 2018 GMT
+        Subject: UID=com.example.FakeApp.voip, CN=VoIP Services: com.example.FakeApp, OU=6F44JJ9SDF, O=Example, LLC, C=US
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (2048 bit)
+                Modulus:
+                    00:b7:bc:8e:ae:ae:a9:ec:7e:92:db:69:61:da:dc:
+                    24:28:82:d4:ba:cb:18:b7:a9:cc:41:62:43:97:41:
+                    ed:63:39:70:43:e1:bb:a4:26:47:12:d5:a1:7c:76:
+                    3e:dd:e2:86:84:0e:97:24:02:51:8a:19:08:03:5a:
+                    aa:d1:79:95:7a:72:c0:df:99:16:5d:3b:44:fe:59:
+                    c6:09:00:be:5f:e5:e4:9e:d1:5e:aa:3a:ad:a3:09:
+                    15:2d:70:42:6f:5c:6b:55:5a:57:5a:d6:05:f8:f1:
+                    00:9d:25:f2:32:67:7d:48:4b:75:c7:9d:90:32:e1:
+                    c7:1f:ac:1d:3a:f9:ee:f8:b7:e9:c4:68:46:67:92:
+                    fa:6b:f5:e1:10:8e:7e:af:79:d7:4a:cd:7a:3a:f5:
+                    32:73:e6:a6:15:a8:92:4f:34:9e:2a:2e:9f:2f:4d:
+                    cf:72:62:52:70:b4:d2:98:58:ed:d5:bb:3f:04:2d:
+                    fc:31:d4:f8:d3:97:0c:93:a8:24:16:c5:35:39:d4:
+                    b7:83:13:5b:41:d1:83:4c:79:e3:26:c1:89:79:78:
+                    c0:62:1f:76:8e:07:bc:50:5f:12:4f:df:6a:af:a6:
+                    da:5c:0a:eb:42:ed:77:28:34:e3:0a:fd:c9:b6:a1:
+                    06:be:67:9a:24:2a:42:81:8e:83:f9:2b:5c:7a:21:
+                    8e:d3
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            Authority Information Access: 
+                OCSP - URI:http://ocsp.apple.com/ocsp03-wwdr01
+
+            X509v3 Subject Key Identifier: 
+                09:17:D5:21:4A:22:DE:E6:2F:B9:04:7C:F9:50:80:42:12:8A:57:04
+            X509v3 Basic Constraints: critical
+                CA:FALSE
+            X509v3 Authority Key Identifier: 
+                keyid:7F:F8:4A:74:2C:9F:F0:3C:9F:5C:6F:0E:40:80:03:3F:26:58:49:6F
+
+            X509v3 Certificate Policies: 
+                Policy: 1.2.840.113635.100.5.1
+                  User Notice:
+                    Explicit Text: Reliance on this certificate by any party assumes acceptance of the then applicable standard terms and conditions of use, certificate policy and certification practice statements.
+                  CPS: http://www.apple.com/certificateauthority
+
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://crl.apple.com/wwdrca.crl
+
+            X509v3 Key Usage: critical
+                Digital Signature
+            X509v3 Extended Key Usage: 
+                TLS Web Client Authentication
+            1.2.840.113635.100.6.3.1: 
+                ..
+            1.2.840.113635.100.6.3.2: 
+                ..
+            1.2.840.113635.100.6.3.3: 
+                ..com.example.FakeApp
+            1.2.840.113635.100.6.3.4: 
+                .-com.example.FakeApp, com.example.FakeApp.voip
+            1.2.840.113635.100.6.3.5: 
+                ..
+    Signature Algorithm: sha256WithRSAEncryption
+         5d:73:e6:82:c2:55:bc:ef:64:c4:47:09:4b:b4:61:9c:04:0a:
+         81:0d:59:39:7c:50:cf:62:d2:65:8a:b2:17:10:c9:a7:08:08:
+         99:11:e3:15:bd:82:b7:fc:e2:92:10:72:32:f4:fe:a6:e5:50:
+         01:fd:b2:96:8d:cf:93:af:60:33:67:a2:cf:a1:1f:78:3c:63:
+         39:66:64:c1:e7:36:26:f9:fd:84:2d:f5:84:e2:1a:52:c7:77:
+         e8:6f:04:dd:28:36:9a:fe:b2:da:8e:ad:96:6e:39:78:e1:d1:
+         57:87:e9:8a:c6:23:97:07:e2:82:e7:2a:4b:81:86:56:0e:cf:
+         c1:29:8d:2a:9a:96:a0:b7:0f:24:8c:1a:3d:b0:8c:9a:ea:b4:
+         ce:89:9d:43:97:f2:6b:1e:b7:10:1c:2d:bf:72:c5:67:89:dd:
+         70:a0:0f:e6:d2:03:f0:eb:3b:c3:2b:d1:8e:9d:d4:80:42:41:
+         20:ca:12:0d:0d:36:48:9b:6c:74:7c:3a:23:13:2c:c1:ad:5b:
+         cf:01:a8:f0:5d:6d:fb:10:08:29:75:ce:0b:c2:d7:4d:01:d9:
+         c1:fb:88:3c:f3:8a:82:28:c0:27:02:5b:28:63:31:d3:54:b0:
+         b4:96:db:1e:5b:43:77:b8:e9:69:4c:77:de:a9:0a:9b:1e:61:
+         3c:48:84:03

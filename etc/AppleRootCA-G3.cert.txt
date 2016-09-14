@@ -1,0 +1,36 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 3298319966700653461 (0x2dc5fc88d2c54b95)
+    Signature Algorithm: ecdsa-with-SHA384
+        Issuer: CN=Apple Root CA - G3, OU=Apple Certification Authority, O=Apple Inc., C=US
+        Validity
+            Not Before: Apr 30 18:19:06 2014 GMT
+            Not After : Apr 30 18:19:06 2039 GMT
+        Subject: CN=Apple Root CA - G3, OU=Apple Certification Authority, O=Apple Inc., C=US
+        Subject Public Key Info:
+            Public Key Algorithm: id-ecPublicKey
+                Public-Key: (384 bit)
+                pub: 
+                    04:98:e9:2f:3d:40:72:a4:ed:93:22:72:81:13:1c:
+                    dd:10:95:f1:c5:a3:4e:71:dc:14:16:d9:0e:e5:a6:
+                    05:2a:77:64:7b:5f:4e:38:d3:bb:1c:44:b5:7f:f5:
+                    1f:b6:32:62:5d:c9:e9:84:5b:4f:30:4f:11:5a:00:
+                    fd:58:58:0c:a5:f5:0f:2c:4d:07:47:13:75:da:97:
+                    97:97:6f:31:5c:ed:2b:9d:7b:20:3b:d8:b9:54:d9:
+                    5e:99:a4:3a:51:0a:31
+                ASN1 OID: secp384r1
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                BB:B0:DE:A1:58:33:88:9A:A4:8A:99:DE:BE:BD:EB:AF:DA:CB:24:AB
+            X509v3 Basic Constraints: critical
+                CA:TRUE
+            X509v3 Key Usage: critical
+                Certificate Sign, CRL Sign
+    Signature Algorithm: ecdsa-with-SHA384
+         30:65:02:31:00:83:e9:c1:c4:16:5e:1a:5d:34:18:d9:ed:ef:
+         f4:6c:0e:00:46:4b:b8:df:b2:46:11:c5:0f:fd:e6:7a:8c:a1:
+         a6:6b:ce:c2:03:d4:9c:f5:93:c6:74:b8:6a:df:aa:23:15:02:
+         30:6d:66:8a:10:ca:d4:0d:d4:4f:cd:8d:43:3e:b4:8a:63:a5:
+         33:6e:e3:6d:da:17:b7:64:1f:c8:53:26:f9:88:62:74:39:0b:
+         17:5b:cb:51:a8:0c:e8:18:03:e7:a2:b2:28
