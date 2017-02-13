@@ -73,13 +73,19 @@ PROD_PUSH_SERVER_PRIVATE_KEY=FakeAppleProdPushServer.key.unencrypted.pem
 PROD_PUSH_SERVER_CERT=FakeAppleProdPushServer.cert.pem
 PROD_PUSH_SERVER_CSR=FakeAppleProdPushServer.csr
 
-VOIP_PUSH_CLIENT_PRIVATE_KEY=com.example.FakeApp.voip.key.unencrypted.pem
-VOIP_PUSH_CLIENT_CERT=com.example.FakeApp.voip.cert.pem
-VOIP_PUSH_CLIENT_CSR=com.example.FakeApp.voip.csr
+TEAM_ID=6F44JJ9SDF
 
-UNIVERSAL_PUSH_CLIENT_PRIVATE_KEY=com.example.FakeApp.universal.key.unencrypted.pem
-UNIVERSAL_PUSH_CLIENT_CERT=com.example.FakeApp.universal.cert.pem
-UNIVERSAL_PUSH_CLIENT_CSR=com.example.FakeApp.universal.csr
+VOIP_PUSH_CLIENT_BUNDLE_ID=com.example.FakeApp
+VOIP_PUSH_CLIENT_TOPIC=${VOIP_PUSH_CLIENT_BUNDLE_ID}.voip
+VOIP_PUSH_CLIENT_PRIVATE_KEY=${VOIP_PUSH_CLIENT_TOPIC}.key.unencrypted.pem
+VOIP_PUSH_CLIENT_CERT=${VOIP_PUSH_CLIENT_TOPIC}.cert.pem
+VOIP_PUSH_CLIENT_CSR=${VOIP_PUSH_CLIENT_TOPIC}.csr
+
+UNIVERSAL_PUSH_CLIENT_BUNDLE_ID=com.example.FakeApp
+UNIVERSAL_PUSH_CLIENT_TOPIC=${UNIVERSAL_PUSH_CLIENT_BUNDLE_ID}
+UNIVERSAL_PUSH_CLIENT_PRIVATE_KEY=${UNIVERSAL_PUSH_CLIENT_TOPIC}.universal.key.unencrypted.pem
+UNIVERSAL_PUSH_CLIENT_CERT=${UNIVERSAL_PUSH_CLIENT_TOPIC}.universal.cert.pem
+UNIVERSAL_PUSH_CLIENT_CSR=${UNIVERSAL_PUSH_CLIENT_TOPIC}.universal.csr
 
 ALL_CA_CHAIN_CERT=FakeAppleAllCAChain.cert.pem
 
@@ -97,6 +103,25 @@ display_section() {
     echo ==================================================
     echo $*
     echo ==================================================
+}
+
+make_signing_key_filename() {
+    local team_id="$1"; shift
+    local bundle_id="$1"; shift
+    local key_id="$1"; shift
+
+    echo "APNsAuthKey_${team_id}_${bundle_id}_${key_id}.p8"
+}
+
+gen_auth_signing_key() {
+    local team_id="$1"; shift
+    local bundle_id="$1"; shift
+    local key_id="$1"; shift
+    local filename=$(make_signing_key_filename "$team_id" "$bundle_id" "$key_id")
+
+    openssl ecparam -name prime256v1 -genkey -noout | \
+        openssl pkcs8 -topk8 -nocrypt -out $filename && \
+        chmod 0600 $filename
 }
 
 make_ca_dir_struct CA
@@ -357,7 +382,7 @@ openssl ca \
     ${VERBOSE} \
     -notext \
     -batch \
-    -subj '/UID=com.example.FakeApp.voip/CN=VoIP Services: com.example.FakeApp/OU=6F44JJ9SDF/O=Example, LLC/C=US' \
+    -subj '/UID='${VOIP_PUSH_CLIENT_TOPIC}'/CN=VoIP Services: '${VOIP_PUSH_CLIENT_BUNDLE_ID}'/OU='${TEAM_ID}'/O=Example, LLC/C=US' \
     -preserveDN \
     -startdate ${START_DATE} \
     -days $(( 365 * 2 )) \
@@ -401,7 +426,7 @@ openssl ca \
     ${VERBOSE} \
     -notext \
     -batch \
-    -subj '/UID=com.example.FakeApp/CN=Apple Push Services: com.example.FakeApp/OU=6F44JJ9SDF/O=Example, LLC/C=US' \
+    -subj '/UID='${UNIVERSAL_PUSH_CLIENT_TOPIC}'/CN=Apple Push Services: '${UNIVERSAL_PUSH_CLIENT_BUNDLE_ID}'/OU='${TEAM_ID}'/O=Example, LLC/C=US' \
     -preserveDN \
     -days $(( 365 * 2 )) \
     -md sha256 \
@@ -423,6 +448,19 @@ display_section Generating All CA chain cert
 [[ -f ${ALL_CA_CHAIN_CERT} ]] && chmod 744 ${ALL_CA_CHAIN_CERT}
 cat WWDRCA/certs/${WWDR_CA_ROOT_CERT} ISTCA2G1/certs/${ISTCA2G1_ROOT_CERT} certs/${CA_ROOT_CERT} > ${ALL_CA_CHAIN_CERT}
 chmod 444 ${ALL_CA_CHAIN_CERT}
+
+popd
+
+# Generate EC private keys for token-based authentication
+mkdir -p apns_auth_keys
+chmod 0700 apns_auth_keys
+pushd apns_auth_keys
+
+# Generate the Token Signing PKCS8 private keys
+display_section Generating APNS auth token signing PKCS8 private keys
+
+gen_auth_signing_key "${TEAM_ID}" "${VOIP_PUSH_CLIENT_TOPIC}" "V782PDP1"
+gen_auth_signing_key "${TEAM_ID}" "${UNIVERSAL_PUSH_CLIENT_TOPIC}" "UB40XKCD"
 
 popd
 
