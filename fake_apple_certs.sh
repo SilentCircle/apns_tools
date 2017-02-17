@@ -459,8 +459,8 @@ pushd apns_auth_keys
 # Generate the Token Signing PKCS8 private keys
 display_section Generating APNS auth token signing PKCS8 private keys
 
-gen_auth_signing_key "${TEAM_ID}" "${VOIP_PUSH_CLIENT_TOPIC}" "V782PDP1"
-gen_auth_signing_key "${TEAM_ID}" "${UNIVERSAL_PUSH_CLIENT_TOPIC}" "UB40XKCD"
+gen_auth_signing_key "${TEAM_ID}" "${VOIP_PUSH_CLIENT_TOPIC}" "V782ZPDP1Z"
+gen_auth_signing_key "${TEAM_ID}" "${UNIVERSAL_PUSH_CLIENT_TOPIC}" "UB40ZXKCDZ"
 
 popd
 
